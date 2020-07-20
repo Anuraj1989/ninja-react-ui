@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'bc1b018f-782e-4c12-b0f4-f4917f9aa649'
   imageRepository: 'anurajninjareactui'
-  containerRegistry: 'testnodeapp.azurecr.io'
+  containerRegistry: 'reactseatbooking.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/dockerfile'
   tag: '$(Build.BuildId)'
   
